@@ -5,5 +5,5 @@ http:
     - "pipi.4kya.com"
     - "js-ad.ayximgss.com"
   rewrite:
-    - ^http?:\/\/pipi\.4kya\.com/\/xgapp\.php\/v3\/advert.position.[^2](?<=position..) - reject
+    -^http?:\/\/pipi\.4kya\.com/\/xgapp\.php\/v3\/advert.position.[^2](?<=position..) - reject
     - ^https?:\/\/js-ad\.ayximgs\.com\.ad-universe-cdn\.hzhcbkj\.cn\/xgapp\.php\/v2\/top_notice? - reject
