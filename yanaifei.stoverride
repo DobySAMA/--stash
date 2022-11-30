@@ -1,1 +1,7 @@
-https://raw.githubusercontent.com/DobySAMA/stash-stoverride/main/ad.stoverried
+name: 去除部分app开屏广告
+desc:鸭奈飞
+http:
+  mitm:
+    - "pipi.4kya.com"
+  rewrite:
+    - ^http?:\/\/pipi\.4kya\.com/\/xgapp\.php\/v3\/advert.position.[^2](?<=position..) - reject
