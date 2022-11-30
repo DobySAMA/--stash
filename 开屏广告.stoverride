@@ -4,4 +4,4 @@ http:
   mitm:
     - "pipi.4kya.com"
   rewrite:
-    -^http?:\/\/pipi\.4kya\.com/\/xgapp\.php\/v3\/advert.position.[^2](?<=position..) - reject-dict
+    ^http?:\/\/pipi\.4kya\.com/\/xgapp\.php\/v3\/advert.position.[^2](?<=position..) - reject-dict
