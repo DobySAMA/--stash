@@ -1,0 +1,7 @@
+name: HDOBOX去广告
+desc: 分流
+
+rules:
+  - HOST-SUFFIX, applovin.com, REJECT
+  - HOST-SUFFIX, applvn.com, REJECT
+  - HOST-SUFFIX, doubleclick.net, REJECT
